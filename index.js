@@ -9,7 +9,7 @@ module.exports = function(sails) {
 
         if (deviceType == shared.deviceType) {
             var deviceUrl = newDevice.identifier;
-            var notification {
+            var notification = {
                 title : 'Motion Detection',
                 icon : 'fa fa-eye',
                 user : 1,
